@@ -36,6 +36,7 @@ namespace
         di.addLinkMode(LinkMode::S1);
         di.addDetection(MANUFACTURER_LSE, 0x08,  0x34);
         di.addDetection(MANUFACTURER_LSE, 0x08,  0x35);
+        di.addDetection(MANUFACTURER_QDS, 0x08,  0x36);
         di.addDetection(MANUFACTURER_QDS, 0x08,  0x35);
         di.addDetection(MANUFACTURER_QDS, 0x08,  0x34);
         di.addDetection(MANUFACTURER_LSE, 0x08,  0x18); // whe4
